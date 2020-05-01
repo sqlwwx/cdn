@@ -1,5 +1,5 @@
-update:
+loadWorkbox:
 	yarn global add workbox-cli
 	workbox copyLibraries .
 
-.PHONY: update
+.PHONY: loadWorkbox
